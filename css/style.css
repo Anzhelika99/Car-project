@@ -1,0 +1,270 @@
+* {
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'Manrope', sans-serif;
+   color: #1d1e24;
+}
+
+.container {
+	max-width: 1200px;
+	margin: auto;
+	width: 90%;
+}
+
+.header h3 {
+   color: #228650;
+   font-size: 30px;
+   font-weight: 900;
+   margin-bottom: 0;
+}
+
+.header p {
+   margin-top: 12px;
+   font-weight: 300;
+   font-size: 18px;
+   margin-bottom: 0;
+}
+
+.about {
+   margin-top: 0;
+   display: flex;
+}
+
+.about img {
+   z-index: -1;
+   transform: rotate(35deg);
+}
+
+.about-text {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.about-text h1 {
+   color: #1d1e24;
+   font-size: 58px;
+   font-weight: 600;
+   margin-bottom: 20px;
+   margin-top: 0;
+}
+
+.about-text p {
+   margin-top: 10;
+   color: #1d1e24;
+   font-size: 24px;
+   font-weight: 300;
+   line-height: 1.2;
+}
+
+h2 {
+   margin-top: 20px;
+   text-align: center;
+   font-size: 48px;
+   line-height: 1.2;
+   font-weight: 500;
+}
+
+.procedure-dtp {
+   background-color: #f3fbf7;
+   box-shadow: 3px 3px 5px 1px rgb(29 30 36 / 10%);
+   border-radius: 10px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.procedure-dtp_card {
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.procedure-dtp_card:first-child {
+   margin-left: 30px;
+}
+
+.procedure-dtp_card:last-child {
+   margin-right: 30px;
+}
+
+.number {
+   margin-top: 50px;
+   display: flex;
+   width: 70px;
+   height: 70px;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+   background-color: #1d1e24;
+   border-radius: 100%;
+   color: #ffffff;
+   font-size: 50px;
+   line-height: 1;
+   font-weight: 500;
+}
+
+.procedure-dtp_card-title {
+   color: rgb(29, 30, 36);
+   font-size: 22px;
+   font-weight: 500;
+}
+
+.procedure-dtp_card-text {
+   line-height: 1.4;
+   margin-top: 0;
+   margin-bottom: 50px;
+   width: 220px;
+   height: 72px;
+   color: #000;
+   font-size: 18px;
+   font-weight: 300;
+}
+
+.benefits-title {
+   margin-top: 80px;
+   margin-bottom: 80px;
+}
+
+.benefits {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 100px;
+
+}
+
+.benefits img {
+   transform: rotate(45deg);
+}
+
+.benefit {
+   width: 320px;
+   display: flex;
+   flex-direction: column;
+}
+
+.benefit-title {
+   color: #228650;
+   font-size: 26px;
+   font-weight: 500;
+
+}
+
+.benefit-text {
+   color: #000000;
+   font-size: 20px;
+   line-height: 1.6;
+   font-weight: 300;
+}
+
+.services {
+   display: flex;
+   align-items: center;
+}
+
+.services img {
+   width: 590px;
+   height: 262px;
+}
+
+.service-item p {
+   color: #228650;
+   font-size: 25px;
+}
+
+.service-list {
+   padding-left: 20px;
+   padding-right: 0;
+}
+
+.service-list li {
+   font-size: 21px;
+   line-height: 1.7;
+   font-weight: 300;
+   color: rgb(0, 179, 81);
+}
+
+.service-list span {
+   color: #000;
+}
+
+.services-text {
+   font-size: 22px;
+   line-height: 1.4;
+   font-weight: 300;
+   margin-bottom: 60px;
+}
+
+.extra-services {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 60px;
+
+}
+
+.extra_card img {
+   width: 100%;
+}
+
+.extra_card {
+   width: 320px;
+}
+
+.extra_card p {
+   text-align: center;
+   font-size: 24px;
+   line-height: 1.2;
+   font-weight: 500;
+}
+
+.who-we-are p:first-child {
+   margin-top: 60px;
+}
+
+.who-we-are {
+   font-size: 22px;
+   line-height: 1.2;
+   font-weight: 300;
+}
+
+.who-we-are_bottom {
+   display: flex;
+   align-items: flex-end;
+   justify-content: space-between;
+   margin-bottom: 60px;
+}
+
+.who-we-are_bottom-image {
+   width: 590px;
+}
+
+.who-we-are_bottom-image img {
+   width: 100%;
+}
+
+.who-we-are_bottom p {
+   width: 590px;
+   margin-bottom: 0;
+   margin-left: 15px;
+   font-size: 22px;
+   line-height: 1.2;
+   font-weight: 300;
+}
+
+.day {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 100px;
+
+}
+
+.day_card {
+   width: 390px;
+}
+
+.day_card img {
+   width: 100%;
+}
